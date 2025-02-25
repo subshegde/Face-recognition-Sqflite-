@@ -1,0 +1,35 @@
+name: facerecognition_flutter
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  facesdk_plugin:
+    path: ./facesdk_plugin
+  flutter_exif_rotation: ^0.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  settings_ui: ^2.0.2
+  image_picker: ^1.1.2
+  sqflite:
+  fluttertoast:
+  shared_preferences:
+
+flutter:
+  uses-material-design: true
+  # assets:
+    # - assets/ic_kby.png
+    # - assets/ic_skype.png
+    # - assets/ic_telegram.png
+    # - assets/ic_whatsapp.png
+    # - assets/ic_github.png
